@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
 })
 export class ClassesService {
 
-  readonly APIUrl = "https://masterybackend.tk";
+  readonly APIUrl = "https://onlineiq.tk";
 
   studyMaterialList: AngularFireList<any>;
   assignmentList: AngularFireList<any>;

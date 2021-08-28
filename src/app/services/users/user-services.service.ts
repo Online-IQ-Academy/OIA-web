@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class UserServicesService {
 
-  readonly APIUrl = "https://masterybackend.tk";
+  readonly APIUrl = "https://onlineiq.tk";
 
   constructor(private http: HttpClient) { }
 

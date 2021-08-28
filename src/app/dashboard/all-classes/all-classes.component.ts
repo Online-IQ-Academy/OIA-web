@@ -33,7 +33,7 @@ export class AllClassesComponent implements OnInit {
       if (data.content.length !== 0) {
         this.spinner = false;
       }else{
-        this.spinner = true;
+        this.spinner = false;
         this.emptyMsg = true;
       }
       this.allclasses = data.content;

@@ -38,7 +38,7 @@ export class TokenInterceptor implements HttpInterceptor{
     }
 
 
-    posIndicator:string = 'masterybackend.tk/';
+    posIndicator:string = 'onlineiq.tk/';
 
     private isValidReqUrl(reqUrl: string): boolean{
         let position = reqUrl.indexOf(this.posIndicator);
